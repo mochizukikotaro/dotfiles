@@ -19,16 +19,15 @@ set wildmenu
 set formatoptions+=mM
 " 日本語整形スクリプト(by. 西岡拓洋さん)用の設定
 let format_allow_over_tw = 1    " ぶら下り可能幅
-" シンタックス
 
-" 望月追加カラースキームでのお遊び。
+"---------------------------------------------------------------------------
+" 色に関する設定：
+"
+" hybridをチョイス
 let g:hybrid_use_iTerm_colors = 1
 colorscheme hybrid
-" colorscheme molokai
-" let g:molokai_original = 1
-" let g:rehash256 = 1
+" シンタックス
 syntax on
-
 " 行番号の色を設定
 hi LineNr ctermbg=0 ctermfg=0
 hi CursorLineNr ctermbg=4 ctermfg=0
@@ -68,6 +67,6 @@ noremap <C-j> <esc>
 noremap! <C-j> <esc>
 " ノーマルモードでもエンターで空行を挿入。 
 nnoremap <CR> o<esc>
-" ノーマルモードでセミコロンをコロンがわりにして幸せになる。 
+" ノーマルモードでセミコロンをコロンがわりにして幸せになる（USキーボード用） 
 nnoremap ; :
 
