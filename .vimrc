@@ -19,6 +19,8 @@ set wildmenu
 set formatoptions+=mM
 " 日本語整形スクリプト(by. 西岡拓洋さん)用の設定
 let format_allow_over_tw = 1    " ぶら下り可能幅
+" ヤンクしたデータをクリップボードに入れる
+set clipboard=unnamed,autoselect
 
 "---------------------------------------------------------------------------
 " 色に関する設定：
@@ -58,10 +60,8 @@ set showcmd
 set title
 
 "---------------------------------------------------------------------------
-" 望月の設定:
+" リマッピング:
 "
-" ヤンクしたらクリップボードに入る。
-set clipboard=unnamed,autoselect
 " escが遠いので代用する。
 noremap <C-j> <esc>
 noremap! <C-j> <esc>
