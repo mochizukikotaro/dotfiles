@@ -31,10 +31,12 @@ colorscheme hybrid
 " シンタックス
 syntax on
 " 行番号の色を設定
-hi LineNr ctermbg=0 ctermfg=0
+hi LineNr ctermfg=0
 hi CursorLineNr ctermbg=4 ctermfg=0
 set cursorline
 hi clear CursorLine
+hi NonText ctermfg=0
+hi SpecialKey ctermfg=0
 
 "---------------------------------------------------------------------------
 " GUI固有ではない画面表示の設定:
@@ -44,9 +46,9 @@ set number
 " ルーラーを表示 (noruler:非表示)
 set ruler
 " タブや改行を表示 (list:表示)
-set nolist
+set list
 " どの文字でタブや改行を表示するかを設定(表示しないように)
-set listchars=
+set listchars=eol:¬,tab:▸\ 
 " set listchars=tab:,extends:<,trail:-,eol:<
 " 長い行を折り返して表示 (nowrap:折り返さない)
 set wrap
