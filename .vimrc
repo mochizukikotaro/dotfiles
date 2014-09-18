@@ -47,9 +47,8 @@ set number
 set ruler
 " タブや改行を表示 (list:表示)
 set list
-" どの文字でタブや改行を表示するかを設定(表示しないように)
+" どの文字でタブや改行を表示するかを設定
 set listchars=eol:¬,tab:▸\ 
-" set listchars=tab:,extends:<,trail:-,eol:<
 " 長い行を折り返して表示 (nowrap:折り返さない)
 set wrap
 " 常にステータス行を表示 (詳細は:he laststatus)
