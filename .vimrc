@@ -37,6 +37,7 @@ set cursorline
 hi clear CursorLine
 hi NonText ctermfg=0
 hi SpecialKey ctermfg=0
+hi MatchParen ctermbg=1
 
 "---------------------------------------------------------------------------
 " GUI固有ではない画面表示の設定:
