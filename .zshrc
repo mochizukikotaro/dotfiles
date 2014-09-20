@@ -172,4 +172,4 @@ esac
 
 alias cap='cd ~/Developer/vagrant/aplipo/aplipo/htdocs/app'
 alias cgf='cd ~/Developer/vagrant/gamefeat/gamefeat/htdocs/app'
-alias cmh='cd /Applications/MAMP/htdocs'
+alias cma='cd /Applications/MAMP/htdocs'
