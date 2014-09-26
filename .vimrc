@@ -3,6 +3,8 @@
 "
 " タブの画面上での幅
 set tabstop=4
+" オートインデント時にインデントする文字数
+set shiftwidth=4
 " タブをスペースに展開しない (expandtab:展開する)
 set noexpandtab
 " 自動的にインデントする (noautoindent:インデントしない)
