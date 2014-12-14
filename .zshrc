@@ -173,3 +173,5 @@ esac
 alias cap='cd ~/Developer/vagrant/aplipo/aplipo/htdocs/app'
 alias cgf='cd ~/Developer/vagrant/gamefeat/gamefeat/htdocs/app'
 alias cma='cd /Applications/MAMP/htdocs'
+
+if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
