@@ -62,4 +62,6 @@ set cmdheight=2
 set showcmd
 " タイトルバーの表示を消す(notitle)
 set title
-
+" markdownのハイライトを有効にする
+set syntax=markdown
+au BufRead,BufNewFile *.md set filetype=markdown
