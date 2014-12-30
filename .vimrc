@@ -65,3 +65,5 @@ set title
 " markdownのハイライトを有効にする
 set syntax=markdown
 au BufRead,BufNewFile *.md set filetype=markdown
+" rbファイルはタブをソフトタブにする
+au BufNewFile,BufRead *.rb set expandtab tabstop=2 shiftwidth=2
