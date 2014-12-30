@@ -16,5 +16,5 @@ export PATH=/usr/local/bin:$PATH
 
 ### iTermをつかっていてhyblidを有効にする場合はiTerm側の設定も必要です。
 
-これを適当な場所にcloneして、iTermの設定からinportする。
+これを適当な場所にcloneして、iTermの設定からload presetsする。
 https://gist.github.com/luan/6362811
