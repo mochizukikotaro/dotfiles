@@ -120,7 +120,7 @@ bindkey '^R' history-incremental-pattern-search-backward
 # エイリアス
 
 alias la='ls -a'
-alias ll='ls -l'
+alias ll='ls -la'
 
 alias rm='rm -i'
 alias cp='cp -i'
@@ -168,10 +168,12 @@ esac
 
 ########################################
 # 望月の設定
-# エイリアス
 
+# エイリアス
 alias cap='cd ~/Developer/vagrant/aplipo/aplipo/htdocs/app'
 alias cgf='cd ~/Developer/vagrant/gamefeat/gamefeat/htdocs/app'
 alias cma='cd /Applications/MAMP/htdocs'
+alias cds='cd ~/Desktop'
 
+# rbenvのzsh用設定
 if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
