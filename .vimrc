@@ -67,3 +67,33 @@ set syntax=markdown
 au BufRead,BufNewFile *.md set filetype=markdown
 " rbファイルはタブをソフトタブにする
 au BufNewFile,BufRead *.rb set expandtab tabstop=2 shiftwidth=2
+au BufNewFile,BufRead *.html.erb set expandtab tabstop=2 shiftwidth=2
+au BufNewFile,BufRead *.slim set expandtab tabstop=2 shiftwidth=2
+
+"---------------------------------------------------------------------------
+" NeoBundleの設定 
+" Required:
+set runtimepath+=~/.vim/bundle/neobundle.vim/
+
+" Required:
+call neobundle#begin(expand('~/.vim/bundle/'))
+
+" Let NeoBundle manage NeoBundle
+" Required:
+NeoBundleFetch 'Shougo/neobundle.vim'
+
+" My Bundles here:
+" Refer to |:NeoBundle-examples|.
+" Note: You don't set neobundle setting in .gvimrc!
+
+" slimをハイライトする
+NeoBundle 'slim-template/vim-slim'
+
+call neobundle#end()
+
+" Required:
+filetype plugin indent on
+
+" If there are uninstalled bundles found on startup,
+" this will conveniently prompt you to install them.
+NeoBundleCheck
